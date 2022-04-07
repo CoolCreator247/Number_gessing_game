@@ -4,7 +4,7 @@ def play():
     This function starts the game if numanser = 1
     """
     num = random.randint(0,11)
-    guess = int(input(">"))
+    guess = int(input("put in your guess from 1-10"))
     if guess == num:
         print("you win")
         exit()
@@ -24,3 +24,7 @@ numanser = input(">")
 
 if numanser == "1":
     play()
+
+elif numanser == "2":
+    print("bye bye")
+    exit()
