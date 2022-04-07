@@ -16,7 +16,7 @@ def play():
 
 print("what is your name")
 name = input(">")
-print(f"welcome to Numbers",str(name))
+print(f"Welcome to Numbers",str(name))
 print("[1]play")
 print("[2] quit")
 numanser = input(">")
