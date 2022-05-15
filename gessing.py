@@ -18,7 +18,7 @@ print("what is your name")
 name = input(">")
 print(f"Welcome to Numbers",str(name))
 print("[1]play")
-print("[2] quit")
+print("[2]quit")
 numanser = input(">")
 
 
